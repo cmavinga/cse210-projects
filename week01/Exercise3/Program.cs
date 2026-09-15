@@ -30,7 +30,7 @@ class Program
                 else
                 {
                     Console.WriteLine("You guessed the number!");
-                    Console.WriteLine($"After {guessCount} guess!")
+                    Console.WriteLine($"After {guessCount} guess!");
                 }
             }
             Console.Write("Do you want to play again? (yes/no): ");
