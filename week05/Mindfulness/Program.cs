@@ -25,7 +25,7 @@ class Program
             }
             else
             {
-                Console.WriteLine("Invalid choice. Please select from 1 to 4!");
+                Console.WriteLine("This is an invalid choice. Please select from 1 to 4!");
             }
         }
     }
