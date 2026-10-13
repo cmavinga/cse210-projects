@@ -1,0 +1,4 @@
+50
+SimpleGoal|ride,velo ride 30 minutes,50,True
+EternalGoal|scriptures,reading for 30 minutes,100,Eternal
+ChecklistGoal|temple,attend temple ,125,0,1,25
