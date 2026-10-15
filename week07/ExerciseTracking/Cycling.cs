@@ -3,15 +3,15 @@ using System.Collections.Generic;
 
 class Cycling : Activity
 {
-    private double speed;
+    private double _speed;
 
     public Cycling(DateTime date, int duration, double speed)
         : base(date, duration)
     {
-        this.speed = speed;
+        this._speed = speed;
     }
 
-    public override double GetDistance() => (speed * Duration) / 60;
-    public override double GetSpeed() => speed;
-    public override double GetPace() => 60 / speed;
+    public override double GetDistance() => (_speed * Duration) / 60;
+    public override double GetSpeed() => _speed;
+    public override double GetPace() => 60 / _speed;
 }

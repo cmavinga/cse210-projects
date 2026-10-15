@@ -2,15 +2,15 @@ using System;
 using System.Collections.Generic;
 class Running : Activity
 {
-    private double distance;
+    private double _distance;
 
     public Running(DateTime date, int duration, double distance)
         : base(date, duration)
     {
-        this.distance = distance;
+        this._distance = distance;
     }
 
-    public override double GetDistance() => distance;
-    public override double GetSpeed() => (distance / Duration) * 60;
-    public override double GetPace() => Duration / distance;
+    public override double GetDistance() => _distance;
+    public override double GetSpeed() => (_distance / Duration) * 60;
+    public override double GetPace() => Duration / _distance;
 }

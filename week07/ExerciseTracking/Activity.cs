@@ -3,17 +3,17 @@ using System.Collections.Generic;
 
 abstract class Activity
 {
-    private DateTime date;
-    private int duration;
+    private DateTime _date;
+    private int _duration;
 
     public Activity(DateTime date, int duration)
     {
-        this.date = date;
-        this.duration = duration;
+        this._date = date;
+        this._duration = duration;
     }
 
-    public DateTime Date => date;
-    public int Duration => duration;
+    public DateTime Date => _date;
+    public int Duration => _duration;
 
     public abstract double GetDistance();
     public abstract double GetSpeed();
